@@ -11,3 +11,7 @@
 在每次离开with块时，会将当前profiler到的数据加入到cuda_times列表中，以便后续的数据统计和可视化
 
 
+### leave
+leave方法中可以定义最后需要进行的操作，比如绘图可视化，保存trace文件，dump & close snapshot
+
+
